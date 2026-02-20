@@ -42,6 +42,8 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | [The Rise of Self-Driving Labs](https://www.optica-opn.org/home/articles/volume_36/april_2025/features/the_rise_of_self-driving_labs/) | Optics & Photonics News | 2025 | Accessible overview of SDL field |
 | [Will self-driving 'robot labs' replace biologists?](https://www.nature.com/articles/d41586-026-00453-8) | Nature News | 2026 | Debate on autonomous labs in biology |
 | [A Comprehensive Survey of AI Scientists](https://github.com/tsinghua-fib-lab/Awesome-AI-Scientists) | Tsinghua | 2025 | Full pipeline AI scientist systems |
+| [The rise of self-driving labs](https://www.nature.com/articles/s44160-022-00231-0) | Nature Synthesis | 2023 | Early perspective on SDL emergence |
+| [Leading AI-driven drug discovery platforms: 2025 landscape](https://www.sciencedirect.com/science/article/abs/pii/S0031699925075118) | ScienceDirect | 2025 | Platform comparison for AI drug discovery |
 
 ## 🧪 Self-Driving Lab Systems
 
@@ -54,13 +56,13 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | **Coscientist** | CMU | Chemistry | GPT-4 + robotic synthesis, palladium cross-coupling | [Nature 2023](https://www.nature.com/articles/s41586-023-06792-0) |
 | **Mobile Robot Chemist** | U Liverpool | Chemistry | Autonomous mobile robots for exploratory synthesis | [Nature 2024](https://www.nature.com/articles/s41586-024-08173-7) |
 | **ORGANA** | U Toronto | Chemistry | Franka robot + LLM planning | [Matter 2024](https://www.sciencedirect.com/science/article/abs/pii/S2590238524005423) |
-| **Rainbow** | Multi-institution | Nanomaterials | Multi-robot SDL, parallelized nanocrystal synthesis | 2025 |
-| **DOLPHIN** | Fudan / Shanghai AI Lab | General Science | LLM generates ideas → experiments → evaluation → iteration | 2025 |
+| **Rainbow** | NC State / Multi-institution | Nanomaterials | Multi-robot SDL, parallelized nanocrystal synthesis | [Nature Comm 2025](https://www.nature.com/articles/s41467-025-63209-4) |
+| **DOLPHIN** | Fudan / Shanghai AI Lab | General Science | LLM generates ideas → experiments → evaluation → iteration | [ACL 2025](https://arxiv.org/abs/2501.03916) |
 | **AutoLabs** | Multi-institution | Chemistry | Cognitive multi-agent with self-correction | [arXiv 2025](https://arxiv.org/abs/2509.25651) |
 | **SDL for Nanophotonics** | — | Photonics | Autonomous experimentation for spontaneous emission | [Nature Comm 2025](https://www.nature.com/articles/s41467-025-66916-0) |
 | **SDL for Solid-State Lasers** | — | Materials/Photonics | Discovery of tunable organic emitters | [Nature Comm 2026](https://www.nature.com/articles/s41467-026-69233-2) |
 | **AI Enzyme Engineering** | — | Biology | Generalized platform for autonomous enzyme engineering | [Nature Comm 2025](https://www.nature.com/articles/s41467-025-61209-y) |
-| **Flow-Driven SDL** | — | Materials | 10× data intensification for materials discovery | [Nature Chem Eng 2025](https://www.sciencedaily.com/releases/2025/07/250714052105.htm) |
+| **Flow-Driven SDL** | — | Materials | 10× data intensification for materials discovery | [Nature Chem Eng 2025](https://www.nature.com/articles/s44286-025-00249-z) |
 
 > ⚠️ **Note**: The A-Lab Nature 2023 paper received a [correction in January 2026](https://cen.acs.org/research-integrity/Nature-robot-chemist-paper-corrected/104/web/2026/01), with some questions remaining about the claimed new materials.
 
@@ -70,19 +72,19 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 |--------|------------|------|-----------|
 | **MARS** | 19 LLM agents + 16 tools, hierarchical architecture for materials discovery | 2026 | [Matter 2026](https://doi.org/10.1016/j.matt.2025.102577) / [phys.org](https://phys.org/news/2026-01-multi-agent-ai-robots-automate.html) |
 | **Robin** | First AI to autonomously discover and validate novel therapeutic candidate (ripasudil for dAMD) | 2025 | [arXiv](https://arxiv.org/abs/2505.13400) / [FutureHouse](https://www.futurehouse.org/research-announcements/demonstrating-end-to-end-scientific-discovery-with-robin-a-multi-agent-system) |
-| **ChemAgents** | Task Manager + Literature Reader + Experiment Designer + Computation Performer + Robot Operator | 2025 | ACS 2025 |
+| **ChemAgents** | Task Manager + Literature Reader + Experiment Designer + Computation Performer + Robot Operator | 2025 | [JACS 2025](https://pubs.acs.org/doi/10.1021/jacs.4c17738) |
 | **Tippy** | Production-ready AI agents for DMTA cycle in drug discovery | 2025 | [arXiv](https://arxiv.org/abs/2507.09023) |
 | **Aleks** | Multi-agent autonomous discovery in plant science | 2025 | [arXiv](https://arxiv.org/abs/2508.19383) |
-| **VirSci** | Virtual scientists for Science of Science | 2025 | ACL 2025 |
-| **OriGene** | Virtual disease biologist for therapeutic target discovery | 2025 | — |
-| **Agent Laboratory** | Literature review → experiment → report writing pipeline | 2025 | Schmidgall et al. |
+| **VirSci** | Virtual scientists for Science of Science | 2025 | [ACL 2025](https://arxiv.org/abs/2410.09403) |
+| **OriGene** | Virtual disease biologist for therapeutic target discovery | 2025 | [bioRxiv 2025](https://www.biorxiv.org/content/10.1101/2025.06.03.657658v1) |
+| **Agent Laboratory** | Literature review → experiment → report writing pipeline | 2025 | [arXiv 2025](https://arxiv.org/abs/2501.04227) |
 
 ### End-to-End AI Scientist Systems
 
 | System | Description | Achievement | Reference |
 |--------|------------|-------------|-----------|
-| **AI Scientist v1** | End-to-end automated research pipeline | 8.9k GitHub stars | [Sakana AI 2024](https://github.com/SakanaAI/AI-Scientist) |
-| **AI Scientist v2** | Workshop-level automated discovery | First AI-generated peer-reviewed paper (ICLR 2025 Workshop) | Sakana AI 2025 |
+| **AI Scientist v1** | End-to-end automated research pipeline | ![Stars](https://img.shields.io/github/stars/SakanaAI/AI-Scientist?style=flat-square) | [Sakana AI 2024](https://github.com/SakanaAI/AI-Scientist) |
+| **AI Scientist v2** | Workshop-level automated discovery | First AI-generated peer-reviewed paper (ICLR 2025 Workshop) | [arXiv 2025](https://arxiv.org/abs/2504.08066) |
 
 > ⚠️ Independent [evaluation](https://arxiv.org/abs/2502.14297) (ACM SIGIR Forum 2025) found mixed results, noting some claims may be overstated.
 
@@ -119,10 +121,10 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 |-------|-------|---------------|-----------|
 | **GPT-5 Lab Agent** | Biology | 🔥 Autonomous wet lab experiments via cloud lab, 36k experiments | [OpenAI 2026](https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/) |
 | **ChemCrow** | Chemistry | LLM + 18 chemistry tools integration | [arXiv 2023](https://arxiv.org/abs/2304.05376) |
-| **SciAgents** | Materials | Graph reasoning + multi-agent for materials design | 2024 |
-| **Lang-PINN** | Physics | LLM builds Physics-Informed Neural Networks from natural language | ICLR 2026 |
+| **SciAgents** | Materials | Graph reasoning + multi-agent for materials design | [arXiv 2024](https://arxiv.org/abs/2409.05556) |
+| **Lang-PINN** | Physics | LLM builds Physics-Informed Neural Networks from natural language | [ICLR 2026](https://arxiv.org/abs/2510.05158) |
 | **AI Scientist** | General | End-to-end automated research pipeline | [Sakana AI 2024](https://github.com/SakanaAI/AI-Scientist) |
-| **OpenAI Deep Research** | General | Autonomous multi-step research agent | OpenAI 2025 |
+| **OpenAI Deep Research** | General | Autonomous multi-step research agent | [OpenAI 2025](https://openai.com/index/introducing-deep-research/) |
 
 ### Experiment Design & Active Learning
 
@@ -183,10 +185,10 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 
 | Tool | Stars | Description | Link |
 |------|-------|-------------|------|
-| **AI-Scientist** | 8.9k⭐ | End-to-end automated research pipeline | [GitHub](https://github.com/SakanaAI/AI-Scientist) |
-| **awesome-ai-for-science** | 1,246⭐ | Comprehensive AI4Science resources | [GitHub](https://github.com/ai-boost/awesome-ai-for-science) |
-| **awesome-self-driving-labs** | 209⭐ | Curated SDL resource list | [GitHub](https://github.com/AccelerationConsortium/awesome-self-driving-labs) |
-| **MADSci** | 43⭐ | Modular framework for autonomous discovery | [GitHub](https://github.com/AD-SDL/MADSci) |
+| **AI-Scientist** | ![Stars](https://img.shields.io/github/stars/SakanaAI/AI-Scientist?style=flat-square) | End-to-end automated research pipeline | [GitHub](https://github.com/SakanaAI/AI-Scientist) |
+| **awesome-ai-for-science** | ![Stars](https://img.shields.io/github/stars/ai-boost/awesome-ai-for-science?style=flat-square) | Comprehensive AI4Science resources | [GitHub](https://github.com/ai-boost/awesome-ai-for-science) |
+| **awesome-self-driving-labs** | ![Stars](https://img.shields.io/github/stars/AccelerationConsortium/awesome-self-driving-labs?style=flat-square) | Curated SDL resource list | [GitHub](https://github.com/AccelerationConsortium/awesome-self-driving-labs) |
+| **MADSci** | ![Stars](https://img.shields.io/github/stars/AD-SDL/MADSci?style=flat-square) | Modular framework for autonomous discovery | [GitHub](https://github.com/AD-SDL/MADSci) |
 | **IvoryOS** | — | No-code web interface for SDL workflows | [Nature Comm 2025](https://www.nature.com/articles/s41467-025-60514-w) |
 | **AlabOS** | — | Python reconfigurable SDL management | [Digital Discovery](https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00129j) |
 
@@ -195,7 +197,7 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | Platform | Provider | Description | Link |
 |----------|----------|-------------|------|
 | **Claude for Life Sciences** | Anthropic | MCP connectors + Agent Skills for life science research | [anthropic.com](https://www.anthropic.com/news/claude-for-life-sciences) |
-| **Claude Scientific Skills** | K-Dense AI | 140+ ready-to-use scientific skills (8.9k⭐) | [GitHub](https://github.com/K-Dense-AI/claude-scientific-skills) |
+| **Claude Scientific Skills** | K-Dense AI | 140+ ready-to-use scientific skills ![Stars](https://img.shields.io/github/stars/K-Dense-AI/claude-scientific-skills?style=flat-square) | [GitHub](https://github.com/K-Dense-AI/claude-scientific-skills) |
 | **Google Vertex AI Agent Engine** | Google Cloud | Life science R&D agent framework | [Google Cloud](https://cloud.google.com/blog/topics/healthcare-life-sciences/agentic-ai-framework-in-life-sciences-for-rd) |
 | **OpenAI for Science** | OpenAI | Prism LaTeX + GPT-5 lab agent + FrontierScience | [openai.com/science](https://openai.com/science/) |
 | **Claude in Microsoft Foundry** | MS + Anthropic | Healthcare & life science agentic workflows | [microsoft.com](https://www.microsoft.com/en-us/industry/blog/healthcare/2026/01/11/bridging-the-gap-between-ai-and-medicine-claude-in-microsoft-foundry-advances-capabilities-for-healthcare-and-life-sciences-customers/) |
@@ -300,7 +302,7 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | [Closed-loop nanomaterials synthesis (AMPLE)](https://www.nature.com/articles/s44286-025-00291-x) | Nature Chemical Eng | 2025 | Gram-to-tonne scale, microreactors + ML + automation |
 | [Science acceleration and accessibility with self-driving labs](https://www.nature.com/articles/s41467-025-59231-1) | Nature Communications | 2025 | Perspective on SDL accessibility & democratization |
 | [SDL discovers principles for steering spontaneous emission](https://www.nature.com/articles/s41467-025-66916-0) | Nature Communications | 2025 | Autonomous experimentation in ultrafast nanophotonics |
-| [Flow-driven data intensification for materials discovery](https://www.sciencedaily.com/releases/2025/07/250714052105.htm) | Nature Chemical Eng | 2025 | 10× data intensification for autonomous materials |
+| [Flow-driven data intensification for materials discovery](https://www.nature.com/articles/s44286-025-00249-z) | Nature Chemical Eng | 2025 | 10× data intensification for autonomous materials |
 
 ### 🔬 Top Research — LLM Agents in Labs
 
@@ -310,7 +312,7 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | [Automating quantum computing experiments with agent-based AI](https://www.cell.com/patterns/fulltext/S2666-3899(25)00220-X) | Cell Patterns | 2025 | LLM agent autonomously plans, executes & analyzes quantum experiments |
 | [LIRA: Localization, inspection and reasoning for SDL](https://www.nature.com/articles/s42004-025-01770-1) | Communications Chemistry | 2025 | Vision + reasoning module for autonomous lab workflows |
 | [LLMs in the scientific method: from hypothesis to discovery](https://www.nature.com/articles/s44387-025-00019-5) | npj Artificial Intelligence | 2025 | Comprehensive analysis of LLM roles across scientific method |
-| [AI Scientist: Fully automated scientific discovery](https://arxiv.org/abs/2408.06292) | arXiv / Sakana AI | 2024 | End-to-end research pipeline (8.9k⭐) |
+| [AI Scientist: Fully automated scientific discovery](https://arxiv.org/abs/2408.06292) | arXiv / Sakana AI | 2024 | End-to-end research pipeline |
 | [Evaluating AI Scientist: Bold Claims, Mixed Results](https://arxiv.org/abs/2502.14297) | ACM SIGIR Forum | 2025 | Independent evaluation of AI Scientist capabilities |
 
 ### 🔬 Top Research — Safety, Infrastructure & Standards
@@ -323,16 +325,6 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | [Transforming science labs into automated factories](https://www.science.org/doi/10.1126/scirobotics.adm6991) | Science Robotics | 2024 | Vision for lab-as-factory transformation |
 | [Accelerating discovery with AI and robotics](https://www.science.org/doi/10.1126/scirobotics.adv7932) | Science Robotics | 2024 | Perspectives & challenges for lab AI+robotics |
 | [Building an affordable self-driving lab](https://pubs.aip.org/aip/aml/article/3/4/046105/3369966) | APL Machine Learning | 2025 | IoT-based SDL for education ($300 budget) |
-
-### 📊 Surveys & Meta-Analysis
-
-| Paper | Venue | Year |
-|-------|-------|------|
-| [From AI for Science to Agentic Science](https://arxiv.org/abs/2508.14111) | arXiv | 2025 |
-| [SDL for Chemistry & Materials](https://pubs.acs.org/doi/10.1021/acs.chemrev.4c00055) | Chemical Reviews | 2024 |
-| [Autonomous SDL: Technology & Policy](https://royalsocietypublishing.org/rsos/article/12/7/250646) | Royal Society | 2025 |
-| [Leading AI-driven drug discovery platforms: 2025 landscape](https://www.sciencedirect.com/science/article/abs/pii/S0031699925075118) | ScienceDirect | 2025 |
-| [The rise of self-driving labs](https://www.nature.com/articles/s44160-022-00231-0) | Nature Synthesis | 2023 |
 
 ### 🏥 Clinical / Biomedical AI
 
@@ -372,10 +364,10 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 
 | List | Stars | Focus |
 |------|-------|-------|
-| [awesome-self-driving-labs](https://github.com/AccelerationConsortium/awesome-self-driving-labs) | 209⭐ | Self-driving labs (chemistry/materials) |
-| [awesome-ai-for-science](https://github.com/ai-boost/awesome-ai-for-science) | 1,246⭐ | Broad AI for science |
-| [awesome-isaac-gym](https://github.com/robotlearning123/awesome-isaac-gym) | 1,131⭐ | NVIDIA Isaac Gym for robot learning |
-| [Awesome-AI-Scientists](https://github.com/tsinghua-fib-lab/Awesome-AI-Scientists) | 25⭐ | AI scientist survey |
+| [awesome-self-driving-labs](https://github.com/AccelerationConsortium/awesome-self-driving-labs) | ![Stars](https://img.shields.io/github/stars/AccelerationConsortium/awesome-self-driving-labs?style=flat-square) | Self-driving labs (chemistry/materials) |
+| [awesome-ai-for-science](https://github.com/ai-boost/awesome-ai-for-science) | ![Stars](https://img.shields.io/github/stars/ai-boost/awesome-ai-for-science?style=flat-square) | Broad AI for science |
+| [awesome-isaac-gym](https://github.com/robotlearning123/awesome-isaac-gym) | ![Stars](https://img.shields.io/github/stars/robotlearning123/awesome-isaac-gym?style=flat-square) | NVIDIA Isaac Gym for robot learning |
+| [Awesome-AI-Scientists](https://github.com/tsinghua-fib-lab/Awesome-AI-Scientists) | ![Stars](https://img.shields.io/github/stars/tsinghua-fib-lab/Awesome-AI-Scientists?style=flat-square) | AI scientist survey |
 
 ---
 
