@@ -53,12 +53,12 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | **A-Lab** | LBNL Berkeley | Materials | Autonomous solid-state synthesis, 43 materials in 17 days | [Nature 2023](https://www.nature.com/articles/s41586-023-06734-w) |
 | **Coscientist** | CMU | Chemistry | GPT-4 + robotic synthesis, palladium cross-coupling | [Nature 2023](https://www.nature.com/articles/s41586-023-06792-0) |
 | **Mobile Robot Chemist** | U Liverpool | Chemistry | Autonomous mobile robots for exploratory synthesis | [Nature 2024](https://www.nature.com/articles/s41586-024-08173-7) |
-| **ORGANA** | U Toronto | Chemistry | Franka robot + LLM planning | [Cell Reports Phys Sci 2024](https://doi.org/10.1016/j.xcrp.2024.101542) |
+| **ORGANA** | U Toronto | Chemistry | Franka robot + LLM planning | [Matter 2024](https://www.sciencedirect.com/science/article/abs/pii/S2590238524005423) |
 | **Rainbow** | Multi-institution | Nanomaterials | Multi-robot SDL, parallelized nanocrystal synthesis | 2025 |
 | **DOLPHIN** | Fudan / Shanghai AI Lab | General Science | LLM generates ideas → experiments → evaluation → iteration | 2025 |
 | **AutoLabs** | Multi-institution | Chemistry | Cognitive multi-agent with self-correction | [arXiv 2025](https://arxiv.org/abs/2509.25651) |
 | **SDL for Nanophotonics** | — | Photonics | Autonomous experimentation for spontaneous emission | [Nature Comm 2025](https://www.nature.com/articles/s41467-025-66916-0) |
-| **SDL for Solid-State Lasers** | — | Materials/Photonics | Discovery of tunable organic emitters | [Nature Comm 2026](https://www.nature.com/articles/s41467-025-61209-y) |
+| **SDL for Solid-State Lasers** | — | Materials/Photonics | Discovery of tunable organic emitters | [Nature Comm 2026](https://www.nature.com/articles/s41467-026-69233-2) |
 | **AI Enzyme Engineering** | — | Biology | Generalized platform for autonomous enzyme engineering | [Nature Comm 2025](https://www.nature.com/articles/s41467-025-61209-y) |
 | **Flow-Driven SDL** | — | Materials | 10× data intensification for materials discovery | [Nature Chem Eng 2025](https://www.sciencedaily.com/releases/2025/07/250714052105.htm) |
 
@@ -289,7 +289,7 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | [Autonomous chemical research with LLMs (Coscientist)](https://www.nature.com/articles/s41586-023-06792-0) | Nature | 2023 | GPT-4 planned & executed palladium cross-coupling |
 | [Autonomous mobile robot for exploratory chemistry](https://www.nature.com/articles/s41586-024-08173-7) | Nature | 2024 | Mobile robot navigating lab, performing synthesis autonomously |
 | [Robin: multi-agent system for scientific discovery](https://arxiv.org/abs/2505.13400) | arXiv | 2025 | First AI to autonomously discover & validate therapeutic candidate (ripasudil) |
-| [ORGANA: LLM + Franka robot for chemistry](https://doi.org/10.1016/j.xcrp.2024.101542) | Cell Reports Phys Sci | 2024 | Robot arm + LLM planning for autonomous chemistry |
+| [ORGANA: robotic assistant for automated chemistry](https://www.sciencedirect.com/science/article/abs/pii/S2590238524005423) | Matter | 2024 | Franka robot + LLM planning for autonomous chemistry |
 
 ### 🔬 Top Research — Closed-Loop & Active Learning
 
@@ -298,7 +298,7 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | [Autonomous catalysis research with human–AI–robot collaboration](https://www.nature.com/articles/s41929-025-01430-6) | Nature Catalysis | 2025 | Human-AI-robot collaboration for catalyst discovery |
 | [Autonomous closed-loop mechanistic investigation of molecular electrochemistry](https://www.nature.com/articles/s41467-024-47210-x) | Nature Communications | 2024 | Adaptive closed-loop workflow for electrochemical mechanism |
 | [Closed-loop nanomaterials synthesis (AMPLE)](https://www.nature.com/articles/s44286-025-00291-x) | Nature Chemical Eng | 2025 | Gram-to-tonne scale, microreactors + ML + automation |
-| [SDL for photochemical synthesis of plasmonic nanoparticles](https://www.nature.com/articles/s41467-025-59231-1) | Nature Communications | 2025 | Autonomous optimization of nanoparticle optical properties |
+| [Science acceleration and accessibility with self-driving labs](https://www.nature.com/articles/s41467-025-59231-1) | Nature Communications | 2025 | Perspective on SDL accessibility & democratization |
 | [SDL discovers principles for steering spontaneous emission](https://www.nature.com/articles/s41467-025-66916-0) | Nature Communications | 2025 | Autonomous experimentation in ultrafast nanophotonics |
 | [Flow-driven data intensification for materials discovery](https://www.sciencedaily.com/releases/2025/07/250714052105.htm) | Nature Chemical Eng | 2025 | 10× data intensification for autonomous materials |
 
@@ -311,7 +311,7 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | [LIRA: Localization, inspection and reasoning for SDL](https://www.nature.com/articles/s42004-025-01770-1) | Communications Chemistry | 2025 | Vision + reasoning module for autonomous lab workflows |
 | [LLMs in the scientific method: from hypothesis to discovery](https://www.nature.com/articles/s44387-025-00019-5) | npj Artificial Intelligence | 2025 | Comprehensive analysis of LLM roles across scientific method |
 | [AI Scientist: Fully automated scientific discovery](https://arxiv.org/abs/2408.06292) | arXiv / Sakana AI | 2024 | End-to-end research pipeline (8.9k⭐) |
-| [AI Scientist v2: Workshop-level discovery](https://arxiv.org/abs/2502.14297) | ICLR Workshop | 2025 | First AI-generated peer-reviewed paper |
+| [Evaluating AI Scientist: Bold Claims, Mixed Results](https://arxiv.org/abs/2502.14297) | ACM SIGIR Forum | 2025 | Independent evaluation of AI Scientist capabilities |
 
 ### 🔬 Top Research — Safety, Infrastructure & Standards
 
