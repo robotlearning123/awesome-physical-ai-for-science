@@ -279,31 +279,68 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 
 ## 📚 Key Papers
 
-### Landmark Papers
+### 🔬 Top Research — Autonomous Lab Systems
 
-1. 🔥 **OpenAI + Ginkgo** — "GPT-5-driven autonomous lab optimizes cell-free protein synthesis" — [bioRxiv 2026](https://www.biorxiv.org/content/10.64898/2026.02.05.703998v1)
-2. **MARS** — "Knowledge-driven autonomous materials research via collaborative multi-agent" — [Matter 2026](https://doi.org/10.1016/j.matt.2025.102577)
-3. **A-Lab** — "An autonomous laboratory for the accelerated synthesis of novel materials" — [Nature 2023](https://www.nature.com/articles/s41586-023-06734-w) ([Correction 2026](https://cen.acs.org/research-integrity/Nature-robot-chemist-paper-corrected/104/web/2026/01))
-4. **Coscientist** — "An Autonomous Agent for Scientific Discovery" — [Nature 2023](https://www.nature.com/articles/s41586-023-06792-0)
-5. **Robin** — "A multi-agent system for automating scientific discovery" — [arXiv 2025](https://arxiv.org/abs/2505.13400)
-6. **Mobile Robot Chemist** — "An autonomous mobile robot for exploratory chemistry" — [Nature 2024](https://www.nature.com/articles/s41586-024-08173-7)
-7. **ChemCrow** — "Augmented LLM Chemistry Agent" — [arXiv 2023](https://arxiv.org/abs/2304.05376)
-8. **AI Scientist** — "Towards Fully Automated Open-Ended Scientific Discovery" — [Sakana AI 2024](https://arxiv.org/abs/2408.06292)
-9. **IvoryOS** — "Interoperable web interface for orchestrating self-driving labs" — [Nature Comm 2025](https://www.nature.com/articles/s41467-025-60514-w)
-10. **Flow-Driven Data Intensification** — "Accelerate Autonomous Materials Discovery" — Nature Chemical Engineering 2025
+| Paper | Venue | Year | Key Result |
+|-------|-------|------|------------|
+| [GPT-5-driven autonomous lab optimizes cell-free protein synthesis](https://www.biorxiv.org/content/10.64898/2026.02.05.703998v1) | bioRxiv | 2026 | 🔥 36k experiments, 40% cost reduction, minimal human intervention |
+| [Knowledge-driven autonomous materials research (MARS)](https://doi.org/10.1016/j.matt.2025.102577) | Matter | 2026 | 19 LLM agents + 16 tools, closed-loop materials discovery |
+| [An autonomous laboratory for accelerated synthesis (A-Lab)](https://www.nature.com/articles/s41586-023-06734-w) | Nature | 2023 | 43 materials in 17 days ([Correction 2026](https://cen.acs.org/research-integrity/Nature-robot-chemist-paper-corrected/104/web/2026/01)) |
+| [Autonomous chemical research with LLMs (Coscientist)](https://www.nature.com/articles/s41586-023-06792-0) | Nature | 2023 | GPT-4 planned & executed palladium cross-coupling |
+| [Autonomous mobile robot for exploratory chemistry](https://www.nature.com/articles/s41586-024-08173-7) | Nature | 2024 | Mobile robot navigating lab, performing synthesis autonomously |
+| [Robin: multi-agent system for scientific discovery](https://arxiv.org/abs/2505.13400) | arXiv | 2025 | First AI to autonomously discover & validate therapeutic candidate (ripasudil) |
+| [ORGANA: LLM + Franka robot for chemistry](https://doi.org/10.1016/j.xcrp.2024.101542) | Cell Reports Phys Sci | 2024 | Robot arm + LLM planning for autonomous chemistry |
 
-### Surveys & Meta-Analysis
+### 🔬 Top Research — Closed-Loop & Active Learning
 
-1. **From AI for Science to Agentic Science** — [arXiv 2025](https://arxiv.org/abs/2508.14111) — Most comprehensive agentic science survey
-2. **SDL for Chemistry & Materials** — [Chemical Reviews 2024](https://pubs.acs.org/doi/10.1021/acs.chemrev.4c00055)
-3. **Autonomous SDL: Technology & Policy** — [Royal Society 2025](https://royalsocietypublishing.org/rsos/article/12/7/250646)
-4. **Leading AI-driven drug discovery platforms** — [ScienceDirect 2025](https://www.sciencedirect.com/science/article/abs/pii/S0031699925075118)
+| Paper | Venue | Year | Key Result |
+|-------|-------|------|------------|
+| [Autonomous catalysis research with human–AI–robot collaboration](https://www.nature.com/articles/s41929-025-01430-6) | Nature Catalysis | 2025 | Human-AI-robot collaboration for catalyst discovery |
+| [Autonomous closed-loop mechanistic investigation of molecular electrochemistry](https://www.nature.com/articles/s41467-024-47210-x) | Nature Communications | 2024 | Adaptive closed-loop workflow for electrochemical mechanism |
+| [Closed-loop nanomaterials synthesis (AMPLE)](https://www.nature.com/articles/s44286-025-00291-x) | Nature Chemical Eng | 2025 | Gram-to-tonne scale, microreactors + ML + automation |
+| [SDL for photochemical synthesis of plasmonic nanoparticles](https://www.nature.com/articles/s41467-025-59231-1) | Nature Communications | 2025 | Autonomous optimization of nanoparticle optical properties |
+| [SDL discovers principles for steering spontaneous emission](https://www.nature.com/articles/s41467-025-66916-0) | Nature Communications | 2025 | Autonomous experimentation in ultrafast nanophotonics |
+| [Flow-driven data intensification for materials discovery](https://www.sciencedaily.com/releases/2025/07/250714052105.htm) | Nature Chemical Eng | 2025 | 10× data intensification for autonomous materials |
 
-### Clinical / Biomedical AI
+### 🔬 Top Research — LLM Agents in Labs
 
-1. **AlphaFold 3** — "Accurate structure prediction of biomolecular interactions" — [Nature 2024](https://www.nature.com/articles/s41586-024-07487-w)
-2. **Med-PaLM** — "Large language models encode clinical knowledge" — Nature 2023
-3. **GatorTron** — "A Large Clinical Language Model" — npj Digital Medicine 2022
+| Paper | Venue | Year | Key Result |
+|-------|-------|------|------------|
+| [LLM agents for automation of atomic force microscopy](https://www.nature.com/articles/s41467-025-64105-7) | Nature Communications | 2025 | LLMs transforming SDL via autonomous AFM operation |
+| [Automating quantum computing experiments with agent-based AI](https://www.cell.com/patterns/fulltext/S2666-3899(25)00220-X) | Cell Patterns | 2025 | LLM agent autonomously plans, executes & analyzes quantum experiments |
+| [LIRA: Localization, inspection and reasoning for SDL](https://www.nature.com/articles/s42004-025-01770-1) | Communications Chemistry | 2025 | Vision + reasoning module for autonomous lab workflows |
+| [LLMs in the scientific method: from hypothesis to discovery](https://www.nature.com/articles/s44387-025-00019-5) | npj Artificial Intelligence | 2025 | Comprehensive analysis of LLM roles across scientific method |
+| [AI Scientist: Fully automated scientific discovery](https://arxiv.org/abs/2408.06292) | arXiv / Sakana AI | 2024 | End-to-end research pipeline (8.9k⭐) |
+| [AI Scientist v2: Workshop-level discovery](https://arxiv.org/abs/2502.14297) | ICLR Workshop | 2025 | First AI-generated peer-reviewed paper |
+
+### 🔬 Top Research — Safety, Infrastructure & Standards
+
+| Paper | Venue | Year | Key Result |
+|-------|-------|------|------------|
+| [Steering towards safe self-driving laboratories](https://www.nature.com/articles/s41570-025-00747-x) | Nature Reviews Chemistry | 2025 | Safety framework for autonomous labs |
+| [Self-driving labs for biotechnology](https://www.nature.com/articles/s43588-025-00885-8) | Nature Computational Sci | 2025 | When SDLs are (and aren't) applicable in biotech |
+| [IvoryOS: interoperable web interface for SDL](https://www.nature.com/articles/s41467-025-60514-w) | Nature Communications | 2025 | No-code drag-and-drop SDL interface |
+| [Transforming science labs into automated factories](https://www.science.org/doi/10.1126/scirobotics.adm6991) | Science Robotics | 2024 | Vision for lab-as-factory transformation |
+| [Accelerating discovery with AI and robotics](https://www.science.org/doi/10.1126/scirobotics.adv7932) | Science Robotics | 2024 | Perspectives & challenges for lab AI+robotics |
+| [Building an affordable self-driving lab](https://pubs.aip.org/aip/aml/article/3/4/046105/3369966) | APL Machine Learning | 2025 | IoT-based SDL for education ($300 budget) |
+
+### 📊 Surveys & Meta-Analysis
+
+| Paper | Venue | Year |
+|-------|-------|------|
+| [From AI for Science to Agentic Science](https://arxiv.org/abs/2508.14111) | arXiv | 2025 |
+| [SDL for Chemistry & Materials](https://pubs.acs.org/doi/10.1021/acs.chemrev.4c00055) | Chemical Reviews | 2024 |
+| [Autonomous SDL: Technology & Policy](https://royalsocietypublishing.org/rsos/article/12/7/250646) | Royal Society | 2025 |
+| [Leading AI-driven drug discovery platforms: 2025 landscape](https://www.sciencedirect.com/science/article/abs/pii/S0031699925075118) | ScienceDirect | 2025 |
+| [The rise of self-driving labs](https://www.nature.com/articles/s44160-022-00231-0) | Nature Synthesis | 2023 |
+
+### 🏥 Clinical / Biomedical AI
+
+| Paper | Venue | Year |
+|-------|-------|------|
+| [AlphaFold 3: biomolecular interaction prediction](https://www.nature.com/articles/s41586-024-07487-w) | Nature | 2024 |
+| [Med-PaLM: LLMs encode clinical knowledge](https://www.nature.com/articles/s41586-023-06291-2) | Nature | 2023 |
+| [GatorTron: Large Clinical Language Model](https://www.nature.com/articles/s41746-022-00742-2) | npj Digital Medicine | 2022 |
 
 ## 📖 Books & Courses
 
