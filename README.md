@@ -95,6 +95,7 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | Platform | Institution | Description | Link |
 |----------|------------|-------------|------|
 | **MADSci** | Argonne National Lab | Modular Autonomous Discovery for Science toolkit | [AD-SDL](https://github.com/AD-SDL) |
+| **LabClaw** | ![Stars](https://img.shields.io/github/stars/labclaw/labclaw?style=flat-square) | Open-source AI infrastructure for scientific labs — 5-layer architecture with self-evolving agents | [GitHub](https://github.com/labclaw/labclaw) |
 | **Polybot** | Center for Nanoscale Materials | Self-driving lab for polymer science | [polybot-nexus](https://github.com/polybot-nexus) |
 | **Opentrons Flex** | Opentrons | Open-source liquid handling robots | [Opentrons](https://github.com/Opentrons) |
 | **Chemspeed** | Chemspeed | High-throughput automated synthesis | Commercial |
@@ -189,6 +190,7 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | **awesome-ai-for-science** | ![Stars](https://img.shields.io/github/stars/ai-boost/awesome-ai-for-science?style=flat-square) | Comprehensive AI4Science resources | [GitHub](https://github.com/ai-boost/awesome-ai-for-science) |
 | **awesome-self-driving-labs** | ![Stars](https://img.shields.io/github/stars/AccelerationConsortium/awesome-self-driving-labs?style=flat-square) | Curated SDL resource list | [GitHub](https://github.com/AccelerationConsortium/awesome-self-driving-labs) |
 | **MADSci** | ![Stars](https://img.shields.io/github/stars/AD-SDL/MADSci?style=flat-square) | Modular framework for autonomous discovery | [GitHub](https://github.com/AD-SDL/MADSci) |
+| **LabClaw** | ![Stars](https://img.shields.io/github/stars/labclaw/labclaw?style=flat-square) | Open-source AI infrastructure for scientific labs — 5-layer architecture with self-evolving agents | [GitHub](https://github.com/labclaw/labclaw) |
 | **IvoryOS** | — | No-code web interface for SDL workflows | [Nature Comm 2025](https://www.nature.com/articles/s41467-025-60514-w) |
 | **AlabOS** | — | Python reconfigurable SDL management | [Digital Discovery](https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00129j) |
 
