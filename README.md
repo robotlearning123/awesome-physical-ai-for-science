@@ -181,22 +181,22 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 
 ### Neuroscience
 
-| Platform | Type | Description | Link |
-|----------|------|-------------|------|
-| **DeepLabCut** | Tool | Markerless multi-animal pose estimation (5.5K+ ⭐) | [GitHub](https://github.com/DeepLabCut/DeepLabCut) |
-| **SLEAP** | Tool | Multi-animal pose tracking (top-down + bottom-up) | [GitHub](https://github.com/talmolab/sleap) |
-| **SpikeInterface** | Tool | Unified spike sorting framework (10+ backends) | [GitHub](https://github.com/SpikeInterface/spikeinterface) |
-| **Suite2p** | Tool | Two-photon calcium imaging pipeline | [GitHub](https://github.com/MouseLand/suite2p) |
-| **CaImAn** | Tool | Calcium imaging analysis (CNMF, online) | [GitHub](https://github.com/flatironinstitute/CaImAn) |
-| **MNE-Python** | Tool | MEG/EEG analysis (3.2K+ ⭐) | [GitHub](https://github.com/mne-tools/mne-python) |
-| **PyNWB** | Standard | Neurodata Without Borders file I/O | [GitHub](https://github.com/NeurodataWithoutBorders/pynwb) |
-| **NeuroConv** | Tool | 47+ formats → NWB conversion | [GitHub](https://github.com/catalystneuro/neuroconv) |
-| **Pynapple** | Tool | Neural time series analysis | [GitHub](https://github.com/pynapple-org/pynapple) |
-| **keypoint-MoSeq** | Tool | Unsupervised behavioral syllable discovery | [GitHub](https://github.com/dattalab/keypoint-moseq) |
-| **DataJoint** | Platform | Scientific data pipeline management (165+ ⭐) | [GitHub](https://github.com/datajoint/datajoint-python) |
-| **DANDI Archive** | Database | 1,000+ NWB datasets, open neuroscience data | [DANDI](https://dandiarchive.org/) |
-| **Allen Brain Observatory** | Database | Visual coding, connectivity atlas | [Allen](https://observatory.brain-map.org/) |
-| **OpenNeuro** | Database | 1,000+ BIDS neuroimaging datasets | [OpenNeuro](https://openneuro.org/) |
+| Platform | Type | Description |
+|----------|------|-------------|
+| **[DeepLabCut](https://github.com/DeepLabCut/DeepLabCut)** | Tool | Markerless multi-animal pose estimation |
+| **[SLEAP](https://github.com/talmolab/sleap)** | Tool | Multi-animal pose tracking (top-down + bottom-up) |
+| **[SpikeInterface](https://github.com/SpikeInterface/spikeinterface)** | Tool | Unified spike sorting framework (10+ backends) |
+| **[Suite2p](https://github.com/MouseLand/suite2p)** | Tool | Two-photon calcium imaging pipeline |
+| **[CaImAn](https://github.com/flatironinstitute/CaImAn)** | Tool | Calcium imaging analysis (CNMF, online) |
+| **[MNE-Python](https://github.com/mne-tools/mne-python)** | Tool | MEG/EEG analysis |
+| **[PyNWB](https://github.com/NeurodataWithoutBorders/pynwb)** | Standard | Neurodata Without Borders file I/O |
+| **[NeuroConv](https://github.com/catalystneuro/neuroconv)** | Tool | 47+ formats → NWB conversion |
+| **[Pynapple](https://github.com/pynapple-org/pynapple)** | Tool | Neural time series analysis |
+| **[keypoint-MoSeq](https://github.com/dattalab/keypoint-moseq)** | Tool | Unsupervised behavioral syllable discovery |
+| **[DataJoint](https://github.com/datajoint/datajoint-python)** | Platform | Scientific data pipeline management |
+| **[DANDI Archive](https://dandiarchive.org/)** | Database | 1,000+ NWB datasets, open neuroscience data |
+| **[Allen Brain Observatory](https://observatory.brain-map.org/)** | Database | Visual coding, connectivity atlas |
+| **[OpenNeuro](https://openneuro.org/)** | Database | 1,000+ BIDS neuroimaging datasets |
 
 ## 🛠️ Software Frameworks & Tools
 
@@ -368,6 +368,7 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | **AlphaFold DB** | Biology | 200M+ predicted protein structures |
 | **PubChem** | Chemistry | 100M+ chemical compounds |
 | **ChEMBL** | Drug Discovery | Bioactive molecules with drug-like properties |
+| **[ScienceAgentBench](https://github.com/OSU-NLP-Group/ScienceAgentBench)** | General | 102-task benchmark for AI science agents (ICLR 2025) |
 
 ## 🌐 Communities & Events
 
@@ -391,7 +392,6 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | [Awesome-AI-Scientist-Papers](https://github.com/openags/Awesome-AI-Scientist-Papers) | ![Stars](https://img.shields.io/github/stars/openags/Awesome-AI-Scientist-Papers?style=flat-square) | Robot scientist lineage: Ross King → AI Scientist | 2025 |
 | [Awesome-Scientific-Language-Models](https://github.com/yuzhimanhua/Awesome-Scientific-Language-Models) | ![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=flat-square) | 260+ domain-specific scientific LLMs catalogued | 2025 |
 | [Awesome-Scientific-Datasets-and-LLMs](https://github.com/InternScience/Awesome-Scientific-Datasets-and-LLMs) | ![Stars](https://img.shields.io/github/stars/InternScience/Awesome-Scientific-Datasets-and-LLMs?style=flat-square) | Scientific datasets + LLM benchmarks | 2025 |
-| [ScienceAgentBench](https://github.com/OSU-NLP-Group/ScienceAgentBench) | ![Stars](https://img.shields.io/github/stars/OSU-NLP-Group/ScienceAgentBench?style=flat-square) | 102-task benchmark for science agents (ICLR 2025) | 2025 |
 
 ### Neuroscience
 
