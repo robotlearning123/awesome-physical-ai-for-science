@@ -100,14 +100,14 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | **Chemspeed** | Chemspeed | High-throughput automated synthesis | Commercial |
 | **Mobile ALOHA** | Stanford | Bimanual mobile manipulation for labs | [GitHub](https://github.com/tonyzhaozh/aloha) |
 | **ABB Robotics** | ABB | AI-driven collaborative robots for labs | [SLAS 2026 Demo](https://www.robotics247.com/article/slas-2026-abb-turns-ai-into-action-to-accelerate-the-future-of-lab-automation) |
-| **Ginkgo Cloud Lab** | Ginkgo Bioworks | Remote automated wet lab (robots execute experiments) | [ginkgobioworks.com](https://www.ginkgobioworks.com/) |
+| **Ginkgo Cloud Lab** | Ginkgo Bioworks | Remote automated wet lab (robots execute experiments) | [ginkgo.bio](https://www.ginkgo.bio/) |
 
 ### Orchestration Software
 
 | Platform | Provider | Description | Link |
 |----------|----------|-------------|------|
-| **Cellario** | HighRes Biosolutions | 🔥 Agentic AI scheduling + orchestration for lab automation | [cellario.com](https://www.highresbio.com/cellario/) |
-| **FlexPod** | HighRes | Configurable Lab Automation Platform | [highresbio.com](https://www.highresbio.com/) |
+| **Cellario** | HighRes Biosolutions | 🔥 Agentic AI scheduling + orchestration for lab automation | [highres.com](https://www.highres.com/lab-orchestration) |
+| **FlexPod** | HighRes | Configurable Lab Automation Platform | [highres.com](https://www.highres.com/) |
 | **IvoryOS** | — | Drag-and-drop web interface for SDL workflow design | [Nature Comm 2025](https://www.nature.com/articles/s41467-025-60514-w) |
 | **AlabOS** | — | Python reconfigurable workflow management for SDL | [RSC Digital Discovery 2024](https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00129j) |
 
@@ -194,9 +194,9 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | **[Pynapple](https://github.com/pynapple-org/pynapple)** | Tool | Neural time series analysis |
 | **[keypoint-MoSeq](https://github.com/dattalab/keypoint-moseq)** | Tool | Unsupervised behavioral syllable discovery |
 | **[DataJoint](https://github.com/datajoint/datajoint-python)** | Platform | Scientific data pipeline management |
-| **[DANDI Archive](https://dandiarchive.org/)** | Database | 1,000+ NWB datasets, open neuroscience data |
+| **[DANDI Archive](https://dandiarchive.org/)** | Database | 790+ dandisets, open neuroscience data |
 | **[Allen Brain Observatory](https://observatory.brain-map.org/)** | Database | Visual coding, connectivity atlas |
-| **[OpenNeuro](https://openneuro.org/)** | Database | 1,000+ BIDS neuroimaging datasets |
+| **[OpenNeuro](https://openneuro.org/)** | Database | 1,800+ BIDS neuroimaging datasets |
 
 ## 🛠️ Software Frameworks & Tools
 
@@ -205,8 +205,6 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | Tool | Stars | Description | Link |
 |------|-------|-------------|------|
 | **AI-Scientist** | ![Stars](https://img.shields.io/github/stars/SakanaAI/AI-Scientist?style=flat-square) | End-to-end automated research pipeline | [GitHub](https://github.com/SakanaAI/AI-Scientist) |
-| **awesome-ai-for-science** | ![Stars](https://img.shields.io/github/stars/ai-boost/awesome-ai-for-science?style=flat-square) | Comprehensive AI4Science resources | [GitHub](https://github.com/ai-boost/awesome-ai-for-science) |
-| **awesome-self-driving-labs** | ![Stars](https://img.shields.io/github/stars/AccelerationConsortium/awesome-self-driving-labs?style=flat-square) | Curated SDL resource list | [GitHub](https://github.com/AccelerationConsortium/awesome-self-driving-labs) |
 | **MADSci** | ![Stars](https://img.shields.io/github/stars/AD-SDL/MADSci?style=flat-square) | Modular framework for autonomous discovery | [GitHub](https://github.com/AD-SDL/MADSci) |
 | **IvoryOS** | — | No-code web interface for SDL workflows | [Nature Comm 2025](https://www.nature.com/articles/s41467-025-60514-w) |
 | **AlabOS** | — | Python reconfigurable SDL management | [Digital Discovery](https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00129j) |
@@ -326,7 +324,7 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 
 | Paper | Venue | Year | Key Result |
 |-------|-------|------|------------|
-| [LLM agents for automation of atomic force microscopy](https://www.nature.com/articles/s41467-025-64105-7) | Nature Communications | 2025 | AFMBench: evaluating LLM capabilities for autonomous AFM |
+| [LLM agents for automation of atomic force microscopy](https://www.nature.com/articles/s41467-025-64105-7) | Nature Communications | 2025 | AILA framework + AFMBench for evaluating LLM-driven AFM automation |
 | [Automating quantum computing experiments with agent-based AI](https://www.cell.com/patterns/fulltext/S2666-3899(25)00220-X) | Cell Patterns | 2025 | LLM agent autonomously plans, executes & analyzes quantum experiments |
 | [LIRA: Localization, inspection and reasoning for SDL](https://www.nature.com/articles/s42004-025-01770-1) | Communications Chemistry | 2025 | Vision + reasoning module for autonomous lab workflows |
 | [LLMs in the scientific method: from hypothesis to discovery](https://www.nature.com/articles/s44387-025-00019-5) | npj Artificial Intelligence | 2025 | Comprehensive analysis of LLM roles across scientific method |
@@ -376,7 +374,6 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 - **[Acceleration Consortium](https://acceleration.utoronto.ca/)** — University of Toronto, SDL research hub
 - **[AD-SDL](https://github.com/AD-SDL)** — Argonne National Lab, Self-Driving Labs
 - **[AI for Science Workshop](https://ai4sciencecommunity.github.io/)** — NeurIPS/ICML workshops
-- **[Science Robotics: AI + Robotics for Discovery](https://www.science.org/doi/10.1126/scirobotics.adv7932)** — Perspectives on embodied AI for lab automation (2025)
 
 ## 🔗 Related Awesome Lists
 
@@ -424,12 +421,7 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | [awesome-materials-informatics](https://github.com/tilde-lab/awesome-materials-informatics) | ![Stars](https://img.shields.io/github/stars/tilde-lab/awesome-materials-informatics?style=flat-square) | Materials databases + ML platforms | 2025 |
 | [papers-for-molecular-design-using-DL](https://github.com/AspirinCode/papers-for-molecular-design-using-DL) | ![Stars](https://img.shields.io/github/stars/AspirinCode/papers-for-molecular-design-using-DL?style=flat-square) | 400+ molecular design papers | 2026 |
 | [awesome-molecular-generation](https://github.com/amorehead/awesome-molecular-generation) | ![Stars](https://img.shields.io/github/stars/amorehead/awesome-molecular-generation?style=flat-square) | Generative molecular modeling (diffusion, flow) | 2025 |
-
-### Robotics & Simulation
-
-| List | Stars | Focus | Active |
-|------|-------|-------|--------|
-| [awesome-isaac-gym](https://github.com/robotlearning123/awesome-isaac-gym) | ![Stars](https://img.shields.io/github/stars/robotlearning123/awesome-isaac-gym?style=flat-square) | NVIDIA Isaac Gym for robot learning | 2026 |
+| [awesome-isaac-gym](https://github.com/robotlearning123/awesome-isaac-gym) | ![Stars](https://img.shields.io/github/stars/robotlearning123/awesome-isaac-gym?style=flat-square) | NVIDIA Isaac Gym for robot learning & simulation | 2026 |
 
 ### Drug Discovery
 
@@ -438,12 +430,7 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | [awesome-drug-discovery](https://github.com/yboulaamane/awesome-drug-discovery) | ![Stars](https://img.shields.io/github/stars/yboulaamane/awesome-drug-discovery?style=flat-square) | Computational drug discovery tools | 2025 |
 | [awesome-small-molecule-ml](https://github.com/benb111/awesome-small-molecule-ml) | ![Stars](https://img.shields.io/github/stars/benb111/awesome-small-molecule-ml?style=flat-square) | Small-molecule drug discovery ML | 2023 |
 | [awesome-AI-based-protein-design](https://github.com/opendilab/awesome-AI-based-protein-design) | ![Stars](https://img.shields.io/github/stars/opendilab/awesome-AI-based-protein-design?style=flat-square) | AI protein design papers | 2024 |
-
-### AI Agents (General)
-
-| List | Stars | Focus | Active |
-|------|-------|-------|--------|
-| [awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers) | ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-ai-agent-papers?style=flat-square) | 2026 AI agent papers | 2026 |
+| [awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers) | ![Stars](https://img.shields.io/github/stars/VoltAgent/awesome-ai-agent-papers?style=flat-square) | AI agent papers (general) | 2026 |
 
 ---
 
