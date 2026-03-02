@@ -1,7 +1,7 @@
 config:
   # Allow long lines in tables and links
   MD013:
-    line_length: 300
+    line_length: 500
     tables: false
   # Allow duplicate headings in different sections
   MD024:

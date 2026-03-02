@@ -1,0 +1,9 @@
+# Accept 403 responses — many academic publishers block link checkers
+accept = [200, 201, 204, 301, 302, 403]
+
+# Exclude domains with HTTP/2 issues
+exclude = ["businesswire\\.com"]
+
+timeout = 30
+max_concurrency = 8
+user_agent = "Mozilla/5.0 (compatible; awesome-list-checker)"

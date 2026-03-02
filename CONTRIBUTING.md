@@ -9,6 +9,7 @@ Thank you for your interest in contributing!
 2. **Quality**: Only include well-documented, actively maintained, or historically significant resources.
 
 3. **Format**: Follow the existing table format:
+
    ```markdown
    | [Name](URL) | Description | Year/Stars |
    ```
