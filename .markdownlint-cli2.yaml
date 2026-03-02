@@ -1,0 +1,12 @@
+config:
+  # Allow long lines in tables and links
+  MD013:
+    line_length: 300
+    tables: false
+  # Allow duplicate headings in different sections
+  MD024:
+    siblings_only: true
+  # Allow HTML for badges and images
+  MD033: false
+  # Allow bare URLs
+  MD034: false
