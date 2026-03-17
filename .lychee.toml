@@ -1,5 +1,5 @@
 # Accept 403 responses — many academic publishers block link checkers
-accept = [200, 201, 204, 301, 302, 403]
+accept = [200, 201, 204, 301, 302, 303, 307, 308, 403]
 
 # Exclude domains with HTTP/2 issues
 exclude = ["businesswire\\.com"]

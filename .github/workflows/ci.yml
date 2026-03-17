@@ -33,5 +33,5 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress --accept 200,201,204,301,302,403 --exclude businesswire.com '**/*.md'
+          args: --verbose --no-progress --accept '200..=299,300..=399,403' --exclude businesswire.com '**/*.md'
           fail: true
