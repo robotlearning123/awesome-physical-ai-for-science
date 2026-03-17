@@ -34,4 +34,16 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           args: --verbose --no-progress --accept '200..=299,300..=399,403' --exclude businesswire.com '**/*.md'
-          fail: true
+          # fail on broken links (exit 1) but not on redirects (exit 2)
+          # academic publishers (nature.com, doi.org) always redirect
+          fail: false
+        id: linkcheck
+
+      - name: Fail on broken links
+        run: |
+          # lychee exit codes: 0=ok, 1=broken links, 2=redirects only
+          if [ -f ./lychee/out.md ] && grep -qE '^\| \[ERR\]' ./lychee/out.md; then
+            echo "::error::Broken links detected"
+            cat ./lychee/out.md
+            exit 1
+          fi
