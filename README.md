@@ -20,7 +20,7 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 - [🛠️ Software Frameworks & Tools](#️-software-frameworks--tools)
 - [🏢 Companies & Startups](#-companies--startups)
 - [📚 Key Papers](#-key-papers)
-- [📖 Books & Courses](#-books--courses)
+- [📖 Tutorials & Courses](#-tutorials--courses)
 - [🎯 Benchmarks & Datasets](#-benchmarks--datasets)
 - [🌐 Communities & Events](#-communities--events)
 - [🔗 Related Awesome Lists](#-related-awesome-lists)
@@ -94,7 +94,7 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 
 | Platform | Institution | Description | Link |
 |----------|------------|-------------|------|
-| **MADSci** | Argonne National Lab | Modular Autonomous Discovery for Science toolkit | [AD-SDL](https://github.com/AD-SDL) |
+| **MADSci** | Argonne National Lab | Modular Autonomous Discovery for Science toolkit | [AD-SDL](https://github.com/AD-SDL/MADSci) |
 | **LabClaw** | ![Stars](https://img.shields.io/github/stars/labclaw/labclaw?style=flat-square) | Open-source AI infrastructure for scientific labs — 5-layer architecture with self-evolving agents | [GitHub](https://github.com/labclaw/labclaw) |
 | **Polybot** | Center for Nanoscale Materials | Self-driving lab for polymer science | [polybot-nexus](https://github.com/polybot-nexus) |
 | **Opentrons Flex** | Opentrons | Open-source liquid handling robots | [Opentrons](https://github.com/Opentrons) |
@@ -132,7 +132,7 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | Tool | Description | Reference |
 |------|------------|-----------|
 | **Bayesian Optimization** | Standard for adaptive experimental design in SDLs | Various |
-| **SEEK** | Scientific Exploration with Expert Knowledge for scanning probe microscopy | Digital Discovery 2025 |
+| **SEEK** | Scientific Exploration with Expert Knowledge for scanning probe microscopy | [Digital Discovery 2025](https://pubs.rsc.org/en/content/articlelanding/2025/dd/d4dd00277f) |
 | **BOSS** | Bayesian Optimization Structure Search | 2024 |
 
 ## 🔬 Domain-Specific Platforms
@@ -327,7 +327,7 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | Paper | Venue | Year | Key Result |
 |-------|-------|------|------------|
 | [LLM agents for automation of atomic force microscopy](https://www.nature.com/articles/s41467-025-64105-7) | Nature Communications | 2025 | AILA framework + AFMBench for evaluating LLM-driven AFM automation |
-| [Automating quantum computing experiments with agent-based AI](https://www.cell.com/patterns/fulltext/S2666-3899(25)00220-X) | Cell Patterns | 2025 | LLM agent autonomously plans, executes & analyzes quantum experiments |
+| [Automating quantum computing experiments with agent-based AI](https://www.cell.com/patterns/fulltext/S2666-3899%2825%2900220-X) | Cell Patterns | 2025 | LLM agent autonomously plans, executes & analyzes quantum experiments |
 | [LIRA: Localization, inspection and reasoning for SDL](https://www.nature.com/articles/s42004-025-01770-1) | Communications Chemistry | 2025 | Vision + reasoning module for autonomous lab workflows |
 | [LLMs in the scientific method: from hypothesis to discovery](https://www.nature.com/articles/s44387-025-00019-5) | npj Artificial Intelligence | 2025 | Comprehensive analysis of LLM roles across scientific method |
 | [AI Scientist: Fully automated scientific discovery](https://arxiv.org/abs/2408.06292) | arXiv / Sakana AI | 2024 | End-to-end research pipeline |
@@ -352,7 +352,7 @@ Physical AI for Science represents the integration of embodied intelligence (rob
 | [Med-PaLM: LLMs encode clinical knowledge](https://www.nature.com/articles/s41586-023-06291-2) | Nature | 2023 |
 | [GatorTron: Large Clinical Language Model](https://www.nature.com/articles/s41746-022-00742-2) | npj Digital Medicine | 2022 |
 
-## 📖 Books & Courses
+## 📖 Tutorials & Courses
 
 - 📘 [Self-Driving Laboratories for Chemistry and Materials Science](https://pubs.acs.org/doi/10.1021/acs.chemrev.4c00055) — Chemical Reviews 2024
 - 📘 [Building an Affordable Self-Driving Lab](https://pubs.aip.org/aip/aml/article/3/4/046105/3369966) — APL Machine Learning 2025 (IoT-based, ~$60)
